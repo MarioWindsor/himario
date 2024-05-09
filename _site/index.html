@@ -90,6 +90,7 @@
 	<link rel="stylesheet" type="text/css" href="css/pages/catalogue.css">
 	<link rel="stylesheet" type="text/css" href="css/pages/modal/modal-menu.css">
 	<link rel="stylesheet" type="text/css" href="css/pages/section/sample-section.css">
+	<link rel="stylesheet" type="text/css" href="css/pages/section/menu-section.css">
 
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://use.typekit.net/lgr5oxr.css">
@@ -142,28 +143,18 @@
 
 		<section class="menu-section">
 			<div class="container">
-				<button class="menu-button fill-blue-4 inline js_menu_toggle" tabindex="-1">
-					<span class="menu-label h6"></span>
-					<span class="menu-icon">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-				</button>
-			</div>
-		</section>
-
-		<section class="navigation-section">
-			<div class="container text-right">
-				<div class="nav-list inline fill-blue-4 text-left space-75 space-200-bottom">
-					<div class="title h2 strong text-blue-3 space-50-bottom">Menu</div>
-									<a href="/#benefits-section" class="link h5 strong block line-height-large">Benefits</a>
-									<a href="/#investments-section" class="link h5 strong block line-height-large">Full Ownership</a>
-									<a href="/#co-investments-section" class="link h5 strong block line-height-large">Co-ownership</a>
-									<a href="/#faqs-section" class="link h5 strong block line-height-large">FAQs</a>
-									<a href="/#testimonials-section" class="link h5 strong block line-height-large">Testimonials</a>
-							</div>
-				<div tab-index="-1" class="nav-close-area js_nav_close_area"></div>
+				<input type="checkbox" id="menuToggle">
+				<label class="menu-toggle" for="menuToggle"><span class="visuallyhidden">Menu</span></label>
+				<menu>
+					<ul>
+						<!-- <li><a href="">Welcome</a></li> -->
+						<li><a href="">Wedding</a></li>
+						<li><a href="">Reception</a></li>
+						<li><a href="">Gallery</a></li>
+						<!-- <li><a href="">Upload</a></li> -->
+						<li><a href="">Contact</a></li>
+					</ul>
+				</menu>
 			</div>
 		</section>
 
@@ -180,6 +171,23 @@
 			</div>
 		</section>
 		<!-- END: Intro Section -->
+
+
+
+		<!--PreWedding Section -->
+		<section id="prewedding-section" class="prewedding-section">
+			<div class="container">
+				<div class="row">
+					<div class="columns small-12 space-200-top-bottom position-relative">
+						<div class="video-embed video-embed-bg" style="z-index: 1; pointer-events: auto; padding-top: 56%; position: relative;">
+							<!-- <iframe src="https://www.youtube-nocookie.com/embed/VXcF70q9JsE?playlist=VXcF70q9JsE&html5=1&color=white&disablekb=1&fs=0&autoplay=1&loop=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&enablejsapi=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+							<iframe src="https://www.youtube-nocookie.com/embed/VXcF70q9JsE?playlist=VXcF70q9JsE&html5=1&color=white&disablekb=1&fs=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&enablejsapi=1&controls=1" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="pointer-events: auto; width: 100%;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: PreWedding Section -->
 
 
 		<!-- Details Section -->
@@ -204,21 +212,6 @@
 			</div>
 		</section>
 		<!-- END: Details Section -->
-
-
-
-
-		<!-- Blank Section -->
-		<section id="blank-section" class="blank-section space-100-top space-200-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="columns small-12 space-200-bottom">
-						<div class="h3 strong text-center text-red strong">More Updates Coming Soon</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END: Blank Section -->
 
 
 
