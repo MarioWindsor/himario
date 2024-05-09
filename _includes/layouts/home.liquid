@@ -1,7 +1,7 @@
 {% include 'parts/head.liquid' %}
 {% include 'parts/menu.liquid' %}
 
-		<section class="menu-section">
+		<section class="menu-section hidden">
 			<div class="container">
 				<input type="checkbox" id="menuToggle">
 				<label class="menu-toggle" for="menuToggle"><span class="visuallyhidden">Menu</span></label>
@@ -39,7 +39,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="columns small-12 space-200-top-bottom position-relative">
-						<div class="video-embed video-embed-bg" style="z-index: 1; pointer-events: auto; padding-top: 56%; position: relative;">
+						<div class="video-embed video-embed-bg radius-50" style="z-index: 1; pointer-events: auto; padding-top: 56%; position: relative;">
 							<!-- <iframe src="https://www.youtube-nocookie.com/embed/VXcF70q9JsE?playlist=VXcF70q9JsE&html5=1&color=white&disablekb=1&fs=0&autoplay=1&loop=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&enablejsapi=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 							<iframe src="https://www.youtube-nocookie.com/embed/VXcF70q9JsE?playlist=VXcF70q9JsE&html5=1&color=white&disablekb=1&fs=1&modestbranding=1&playsinline=1&rel=0&showinfo=0&enablejsapi=1&controls=1" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="pointer-events: auto; width: 100%;"></iframe>
 						</div>
@@ -91,8 +91,12 @@
 		<section id="contact-section" class="contact-section space-200-top-bottom">
 			<div class="container">
 				<div class="row">
-					<div class="columns small-12">
-
+					<div class="columns small-12 space-50-bottom">
+						<div class="h1 text-red strong text-center">Get In Touch</div>
+					</div>
+					<div class="columns small-12 space-50 text-center">
+						<a class="button fill-yellow" href="tel:+919590348296" style="margin: var(--space-50);">Call Mr.Prabhakaran Nair</a>
+						<a class="button fill-yellow" href="tel:+919844121481" style="margin: var(--space-50);">Call Mr.WencesLaus Windsor</a>
 					</div>
 				</div>
 			</div>
